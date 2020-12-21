@@ -1,0 +1,23 @@
+body {
+  font-family: Arial;
+  color: rgb(117, 182, 156);
+  background-color: #262839;
+}
+
+h1 {
+  letter-spacing: 3px;
+}
+#intro {
+  width: 500px;
+  text-align: center;
+  align-self: center;
+}
+
+input {
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: #75d7f5;
+}
