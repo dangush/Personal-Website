@@ -23,7 +23,7 @@ body {
 }
 
 #intro {
-  width: 300px;
+  width: 25%;
   text-align: center;
   margin: auto;
 }
@@ -36,4 +36,10 @@ body {
 #socials a {
   font-size: 20px;
   color: lightblue;
+}
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+  #intro {
+    width: 300px;
+  }
 }
