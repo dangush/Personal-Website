@@ -1,23 +1,39 @@
 body {
+  margin: 0;
   font-family: Arial;
-  color: rgb(117, 182, 156);
+  color: rgb(243, 230, 230);
   background-color: #262839;
+  position: relative;
 }
 
-h1 {
+#title {
+  height: 100px;
+  margin: 100px 0 0 0;
+}
+
+#title h1 {
   letter-spacing: 3px;
+  border-bottom: 2px solid rgb(161, 127, 127);
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
+
 #intro {
-  width: 500px;
+  width: 300px;
   text-align: center;
-  align-self: center;
+  margin: auto;
 }
 
-input {
-  background-color: transparent;
+#socials {
+  width: fit-content;
+  margin: 5% auto;
 }
 
-a {
-  text-decoration: none;
-  color: #75d7f5;
+#socials a {
+  font-size: 20px;
+  color: lightblue;
 }
