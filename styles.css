@@ -3,23 +3,14 @@ body {
   font-family: Arial;
   color: rgb(243, 230, 230);
   background-color: #262839;
-  position: relative;
 }
 
-#title {
-  height: 100px;
-  margin: 100px 0 0 0;
-}
-
-#title h1 {
+#name {
   letter-spacing: 3px;
   border-bottom: 2px solid rgb(161, 127, 127);
   width: fit-content;
   height: fit-content;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
+  margin: 120px auto 40px;
 }
 
 #intro {
