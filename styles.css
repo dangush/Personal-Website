@@ -10,7 +10,15 @@ body {
   border-bottom: 2px solid rgb(161, 127, 127);
   width: fit-content;
   height: fit-content;
-  margin: 120px auto 40px;
+  margin: 30px auto 40px;
+}
+
+#face {
+  display: block;
+  width: 200px;
+  margin: 60px auto 0;
+  border: 2px solid rgb(255, 201, 201);
+  border-radius: 50%;
 }
 
 #intro {
